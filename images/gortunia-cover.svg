@@ -1,0 +1,60 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Decorative pattern -->
+  <circle cx="100" cy="100" r="150" fill="#d4af37" opacity="0.05"/>
+  <circle cx="1100" cy="530" r="200" fill="#2563eb" opacity="0.08"/>
+  
+  <!-- Top border -->
+  <rect x="0" y="0" width="1200" height="4" fill="#d4af37"/>
+  
+  <!-- Main content container -->
+  <rect x="80" y="150" width="1040" height="330" rx="12" fill="rgba(255,255,255,0.03)" stroke="#1e3a8a" stroke-width="3" filter="url(#shadow)"/>
+  
+  <!-- Title -->
+  <text x="600" y="260" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="#d4af37" text-anchor="middle">
+    Η Γορτυνία στο πέρασμα
+  </text>
+  <text x="600" y="320" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="#d4af37" text-anchor="middle">
+    των αιώνων
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="380" font-family="Georgia, serif" font-size="28" fill="#2563eb" text-anchor="middle" font-style="italic">
+    από την αρχαιότητα ως σήμερα
+  </text>
+  
+  <!-- Author -->
+  <text x="600" y="440" font-family="Georgia, serif" font-size="24" fill="#9ca3af" text-anchor="middle">
+    Μιχαήλ Σ. Μιχαλακόπουλος
+  </text>
+  
+  <!-- Bottom decorative line -->
+  <line x1="200" y1="500" x2="1000" y2="500" stroke="#d4af37" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Icons representing historical periods -->
+  <circle cx="300" cy="550" r="30" fill="none" stroke="#d4af37" stroke-width="2" opacity="0.6"/>
+  <text x="300" y="560" font-family="Arial" font-size="24" fill="#d4af37" text-anchor="middle" opacity="0.6">🏛️</text>
+  
+  <circle cx="600" cy="550" r="30" fill="none" stroke="#2563eb" stroke-width="2" opacity="0.6"/>
+  <text x="600" y="560" font-family="Arial" font-size="24" fill="#2563eb" text-anchor="middle" opacity="0.6">⛪</text>
+  
+  <circle cx="900" cy="550" r="30" fill="none" stroke="#d4af37" stroke-width="2" opacity="0.6"/>
+  <text x="900" y="560" font-family="Arial" font-size="24" fill="#d4af37" text-anchor="middle" opacity="0.6">⚔️</text>
+  
+  <!-- Bottom border -->
+  <rect x="0" y="626" width="1200" height="4" fill="#d4af37"/>
+</svg>
