@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Μελετήματα: Ιστορία & Πολιτισμός - Δοκίμια και άρθρα για την ελληνική ιστορία, παράδοση και πολιτισμό από τον Μιχαήλ Σ. Μιχαλακόπουλο">
+    <meta name="keywords" content="ελληνική ιστορία, Γορτυνία, Αρκαδία, πολιτισμός, παράδοση, δοκίμια, ιστορικά άρθρα">
+    <meta name="author" content="Μιχαήλ Σωτηρίου Μιχαλακόπουλος">
+    
+    <meta name="theme-color" content="#1e3a8a">
+    <meta name="msapplication-TileColor" content="#1e3a8a">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://michelis2023.github.io/meletemata-istoria-politismos/">
+    <meta property="og:title" content="Μελετήματα: Ιστορία & Πολιτισμός | Μιχαήλ Σ. Μιχαλακόπουλος">
+    <meta property="og:description" content="Διαβάστε δωρεάν δοκίμια και άρθρα για την ελληνική ιστορία, παράδοση και πολιτισμό">
+    <meta property="og:locale" content="el_GR">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://michelis2023.github.io/meletemata-istoria-politismos/">
+    <meta name="robots" content="index, follow">
+    
+    <title>Μελετήματα: Ιστορία & Πολιτισμός | Μιχαήλ Σ. Μιχαλακόπουλος</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --dark: #1a1a2e;
+            --blue: #1e3a8a;
+            --gold: #d4af37;
+            --light: #f5f5f5;
+            --accent: #2563eb;
+        }
+        
+        body {
+            font-family: 'Lora', serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #ddd;
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            border-bottom: 3px solid var(--blue);
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            color: var(--gold);
+            margin-bottom: 10px;
+            text-shadow: 0 2px 10px rgba(30, 58, 138, 0.5);
+        }
+        
+        .subtitle {
+            font-size: clamp(1rem, 3vw, 1.3rem);
+            color: var(--accent);
+            font-style: italic;
+            font-weight: 600;
+        }
+        
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .social-links a {
+            color: var(--gold);
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            color: var(--accent);
+            transform: scale(1.2);
+        }
+        
+        main {
+            flex: 1;
+            padding: 50px 20px;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid var(--blue);
+            border-radius: 12px;
+            padding: 40px 30px;
+        }
+        
+        .intro h2 {
+            font-family: 'Cinzel', serif;
+            color: var(--gold);
+            margin-bottom: 20px;
+            font-size: clamp(1.5rem, 4vw, 2rem);
+        }
+        
+        .intro p {
+            font-size: clamp(1rem, 2.5vw, 1.15rem);
+            line-height: 1.9;
+            color: #ccc;
+        }
+        
+        .essays-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        
+        .essay-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid var(--blue);
+            border-radius: 10px;
+            padding: 35px;
+            transition: all 0.3s ease;
+            min-height: 380px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .essay-card:hover {
+            background: rgba(30, 58, 138, 0.15);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(30, 58, 138, 0.4);
+        }
+        
+        .essay-card h3 {
+            font-family: 'Cinzel', serif;
+            font-size: clamp(1.4rem, 3.5vw, 1.7rem);
+            color: var(--gold);
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+        
+        .essay-meta {
+            color: #999;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        
+        .essay-description {
+            color: #bbb;
+            margin-bottom: 20px;
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+        
+        .reading-time {
+            color: var(--accent);
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .read-btn {
+            display: inline-block;
+            background: var(--blue);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-family: 'Cinzel', serif;
+            text-align: center;
+        }
+        
+        .read-btn:hover {
+            background: var(--accent);
+            transform: scale(1.05);
+        }
+        
+        .coming-soon {
+            background: rgba(30, 58, 138, 0.1);
+            border: 2px dashed var(--blue);
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .coming-soon h2 {
+            font-family: 'Cinzel', serif;
+            color: var(--gold);
+            margin-bottom: 15px;
+            font-size: clamp(1.5rem, 4vw, 2rem);
+        }
+        
+        .coming-soon p {
+            color: #ccc;
+            font-size: clamp(1rem, 2vw, 1.1rem);
+        }
+        
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            border-top: 3px solid var(--blue);
+            padding: 30px 20px;
+            text-align: center;
+            color: #999;
+        }
+        
+        footer a {
+            color: var(--gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        footer a:hover {
+            color: var(--accent);
+        }
+        
+        @media (max-width: 768px) {
+            .essays-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Μιχαήλ Σ. Μιχαλακόπουλος</h1>
+        <p class="subtitle">📚 Μελετήματα: Ιστορία & Πολιτισμός</p>
+        <div class="social-links">
+            <a href="https://github.com/Michelis2023" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.youtube.com/@MichelisM" target="_blank" rel="noopener" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@michelis_77" target="_blank" rel="noopener" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100063736768765" target="_blank" rel="noopener" title="Facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="intro">
+                <h2><i class="fas fa-landmark"></i> Σχετικά με τη Συλλογή</h2>
+                <p>Μια συλλογή δοκιμίων και άρθρων αφιερωμένη στην ελληνική ιστορία, παράδοση και πολιτιστική κληρονομιά. Μέσα από την έρευνα και την αφήγηση, ανακαλύπτουμε τις ρίζες μας, τιμούμε τη μνήμη και κατανοούμε την ταυτότητά μας.</p>
+            </div>
+
+            <div class="essays-grid">
+                <article class="essay-card">
+                    <div>
+                        <h3>Η Γορτυνία στο πέρασμα των αιώνων</h3>
+                        <div class="essay-meta">Ιστορία -- Παράδοση -- Ταυτότητα</div>
+                        <div class="reading-time"><i class="fas fa-clock"></i> ~15 λεπτά ανάγνωσης</div>
+                        <p class="essay-description">Ένα ταξίδι στην ιστορία της Γορτυνίας από την αρχαιότητα ως σήμερα. Από την αρχαία Γόρτυνα και το Ασκληπιείο, στα βυζαντινά μοναστήρια του Λούσιου, τη Φραγκοκρατία, την Τουρκοκρατία, την Επανάσταση του 1821 και τις σύγχρονες προκλήσεις της περιοχής.</p>
+                    </div>
+                    <div>
+                        <a href="i-gortunia-sto-perasma-ton-aionon.html" class="read-btn">Διάβασε Τώρα →</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="coming-soon">
+                <h2><i class="fas fa-book-open"></i> Επόμενα Δοκίμια</h2>
+                <p>Νέα μελετήματα για την ελληνική ιστορία και πολιτισμό θα προστεθούν σύντομα.</p>
+                <p>✨ Μείνετε συντονισμένοι ✨</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Μιχαήλ Σ. Μιχαλακόπουλος | <a href="https://github.com/Michelis2023" target="_blank" rel="noopener">Δείτε τα Άλλα Έργα</a></p>
+        <p>Όλα τα δοκίμια διατίθενται δωρεάν για ανάγνωση online</p>
+    </footer>
+</body>
+</html>
