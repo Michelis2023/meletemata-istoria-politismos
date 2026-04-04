@@ -90,7 +90,7 @@
 
 ---
 
-#### ✨ 4. **Ήμερα Αγία — Η Μεγάλη Εβδομάδα στα χωριά της Αρκαδίας** *(ΝΕΟ)*
+#### ✨ 4. **Ημέρα Αγία — Η Μεγάλη Εβδομάδα στα χωριά της Αρκαδίας** *(ΝΕΟ)*
 
 [![Διαβάστε το Δοκίμιο](https://img.shields.io/badge/Διαβάστε_Online-Πατήστε_εδώ-2563eb?style=for-the-badge)](https://michelis2023.github.io/meletemata-istoria-politismos/imera-agia-megali-evdomada-arkadia.html)
 
